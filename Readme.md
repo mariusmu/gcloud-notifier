@@ -1,7 +1,7 @@
 # Simple Python REST api for posting to Google Cloud Message
 The intention with this repository is to create an easy way to test sending data messages and notifications to Google Cloud Messenger. 
 
-This is in use at my internal docker cluster to post messages from Node Red to an Android client I develop.
+This is in use at my internal docker cluster to post messages from Node-RED to an Android client I develop.
 
 ## Precaution!!
 Do NOT use this on any public facing web service. This should only be used internally behind a firewall. Currently it does not support SSL/TLS traffic.
