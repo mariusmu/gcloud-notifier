@@ -16,7 +16,9 @@ Volumes:
 - /app/logs - when bound you can access the log file log.txt
 
 ## To run
-- ```bash 
-    docker build -t mkmedia/gcloud-notifier:latest . ```
-- ```bash
-    docker run -p 5000:5000 -v ~/tmp:/app/logs -v secure:/app/secure mkmedia/gcloud-notifier:latest```
+```bash 
+docker build -t mkmedia/gcloud-notifier:latest .
+```
+```bash
+docker run -p 5000:5000 -v ~/tmp:/app/logs -v secure:/app/secure mkmedia/gcloud-notifier:latest
+```
